@@ -28,7 +28,11 @@ print("----- Dictionary -----")
 b = {
     "id": 1234,
     "name" : "John",
-    "hobbies" : ["reading", "travel"]
+    "hobbies" : ["reading", "travel"],
+    "email" : {
+        "em1": "john@em.com",
+        "em2": "j@em.com"
+    }
 }
 
 print(b["name"])
@@ -39,3 +43,8 @@ print(b[k])
 # name = John - <datatype>
 # ....
 print("---- Looping dictionary ---")
+for el in b:
+    print(el,"=", b[el], type(b[el]))
+
+print("--- Access dict in dict ---")
+print("Email 2:", b["email"]["em2"])
