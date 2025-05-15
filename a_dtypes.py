@@ -48,3 +48,6 @@ for el in b:
 
 print("--- Access dict in dict ---")
 print("Email 2:", b["email"]["em2"])
+print(dir(b))
+print("---- Keys present in a dict ----")
+print(b.keys())
