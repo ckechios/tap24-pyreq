@@ -20,3 +20,22 @@ print("Slice a list:", a[1:3], type(a[1:3]))
 print("-" * 10)
 for el in a:
     print(el)
+
+# Dictionaries
+# {}
+# { key1 : value1 , key2 : value2 }
+print("----- Dictionary -----")
+b = {
+    "id": 1234,
+    "name" : "John",
+    "hobbies" : ["reading", "travel"]
+}
+
+print(b["name"])
+k = "id"
+print(b[k])
+
+# id = 1234 - <datatype>
+# name = John - <datatype>
+# ....
+print("---- Looping dictionary ---")
